@@ -11,6 +11,11 @@ module.exports = {
     "./public/**/*.html",
   ],
   theme: {
+    fontFamily: {
+      sans: "Exo 2",
+      serif: "Fraunces",
+      mono: "Azeret Mono",
+    },
     extend: {},
   },
   plugins: [require("flowbite/plugin")],

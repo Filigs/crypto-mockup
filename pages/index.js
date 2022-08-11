@@ -1,10 +1,10 @@
 import Head from "next/head";
-
+import Footer from "../components/footer";
 // import Image from "next/image";
 import LandingPage from "../components/index/landing";
 import NavBar from "../components/navbar";
 
-const titleName = "Deverano - Web3 mockup website";
+const titleName = "Web3 Website Mockup - Filipe Martins";
 
 export default function Home() {
   return (
@@ -17,15 +17,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div>
-          <NavBar />
-        </div>
+        <NavBar />
         <div>
           <LandingPage />
         </div>
       </main>
 
-      <footer>{/* social links here */}</footer>
+      <Footer />
     </div>
   );
 }
