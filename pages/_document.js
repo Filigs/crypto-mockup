@@ -14,12 +14,12 @@ class myDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
             rel="stylesheet"
           />
           <Script src="..\node_modules\flowbite\dist\flowbite.js" />
         </Head>
-        <body className="antialiased">
+        <body className="antialiased bg-white text-black dark:bg-black dark:text-white">
           <Main />
           <NextScript />
         </body>

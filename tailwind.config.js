@@ -5,6 +5,7 @@ module.exports = {
   content: [
     "./pages/**.js",
     "./components/**.js",
+    "./components/**/**.js",
     "./node_modules/flowbite-react/**/*.js",
     "./node_modules/flowbite/**/*.js",
     "./public/**/*.html",

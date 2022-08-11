@@ -1,9 +1,10 @@
 import Head from "next/head";
+
 // import Image from "next/image";
 import LandingPage from "../components/index/landing";
 import NavBar from "../components/navbar";
 
-const titleName = "Web3 Website Mockup - Filipe Martins";
+const titleName = "Deverano - Web3 mockup website";
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <NavBar />
+        <div>
+          <NavBar />
+        </div>
         <div>
           <LandingPage />
         </div>
