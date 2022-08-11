@@ -16,6 +16,7 @@ export default function NavBar() {
             {" "}
             <ThemeSwitch />
           </section>
+          {/*  */}
           <section className="px-2"> {/* <Socials /> */}</section>
         </div>
       </div>
