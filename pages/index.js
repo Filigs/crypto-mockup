@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/footer";
 // import Image from "next/image";
 import LandingPage from "../components/index/landing";
 import NavBar from "../components/navbar";
@@ -22,7 +23,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>{/* social links here */}</footer>
+      <Footer />
     </div>
   );
 }
