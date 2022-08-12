@@ -6,7 +6,7 @@ export default function NavBar() {
     <nav className="bg-transparent dark:bg-slate-900 shadow-sm border-b-2 border-x-0 border-t-0 border-slate-200 dark:border-slate-700 transition-transform duration-300 px-2 lg:p-3 inset-x-0">
       <div className="flex flex-row flex-wrap justify-between items-center px-4 py-2 transition-transform duration-300">
         <div className="text-slate-900 dark:text-white">
-          <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap font-mono italic transition-transform duration-300 tracking-wide">
+          <span className="self-center text-xl md:text-2xl font-bold whitespace-nowrap transition-transform duration-300 tracking-wide">
             Day Swap
           </span>
         </div>
