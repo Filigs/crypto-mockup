@@ -19,7 +19,7 @@ class myDocument extends Document {
           />
           <Script src="..\node_modules\flowbite\dist\flowbite.js" />
         </Head>
-        <body className="bg-white dark:bg-slate-900 antialiased">
+        <body className="bg-white dark:bg-slate-900 font-sans antialiased">
           <Main />
           <NextScript />
         </body>
