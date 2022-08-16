@@ -50,7 +50,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="items-center order-2 lg:order-1 transition-transform duration-300">
+        <div className="items-center order-2  transition-transform duration-300">
           <Socials />
         </div>
       </div>

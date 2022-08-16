@@ -3,7 +3,6 @@ import Footer from "../components/footer";
 // import Image from "next/image";
 import LandingPage from "../components/index/landing";
 import NavBar from "../components/navbar";
-
 const titleName = "Web3 Website Mockup - Filipe Martins";
 
 export default function Home() {
