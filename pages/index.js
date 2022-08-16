@@ -20,7 +20,7 @@ export default function Home() {
       <main>
         <NavBar />
         <section>
-          <Example />
+          <LandingPage />
         </section>
       </main>
 
