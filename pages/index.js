@@ -3,7 +3,8 @@ import Footer from "../components/footer";
 // import Image from "next/image";
 import LandingPage from "../components/index/landing";
 import NavBar from "../components/navbar";
-
+import UniswapApp from "../components/uniswap/app";
+import Example from "../example/example";
 const titleName = "Web3 Website Mockup - Filipe Martins";
 
 export default function Home() {
@@ -18,9 +19,9 @@ export default function Home() {
       </Head>
       <main>
         <NavBar />
-        <div>
-          <LandingPage />
-        </div>
+        <section>
+          <Example />
+        </section>
       </main>
 
       <Footer />
